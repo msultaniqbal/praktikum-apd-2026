@@ -1,0 +1,77 @@
+# lemari = ["Baju","Celana", 69, 7, 2, True, 70, 222, 240]
+
+# angka = (1, 2, 3, "Halo", True)
+# print(angka)
+
+
+# ubah = list(angka)
+# angka.append("Halo")
+# angka = tuple (ubah)
+# print (angka)
+
+
+lemari = ("Baju", "Celana", "sepatu")
+(atasan, *bawahan) = lemari
+print(bawahan)
+
+
+
+
+
+
+
+
+
+
+
+
+# angka1 = [[1, 2], [3, 4]]
+# print(angka1[0][1])
+
+
+# angka2 = [2, 4, 6]
+# gabungan = angka1 + angka2
+# print(gabungan)
+
+# ulang = angka1 * 3
+# print(ulang)
+
+
+# print("sebelum diubah")
+# print(lemari)
+# del lemari[1]
+# hapus = "Baju"
+# lemari.remove(hapus)
+
+# sisa = lemari.pop(2)
+# print(sisa)
+
+# lemari[0:2] = ["celana panjang", "jaket", "jas hujan"]
+
+# print("sesudah diubah")
+# print(lemari)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for item in lemari:
+    if type(item) == int:
+        jumlah += 1
+print("Jumlah integer dalam list:", jumlah)
